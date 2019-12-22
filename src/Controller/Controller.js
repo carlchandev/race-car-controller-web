@@ -88,7 +88,7 @@ export default function Controller() {
                 <Grid item>
                     <Button variant="contained" size="large" color="primary" className={classes.button}
                         onTouchStart={() => handleTurnLeft()}
-                        onTouchEnd={() => handleStop()}>
+                        onTouchEnd={() => handleForward()}>
                         <ArrowBackIcon />
                     </Button>
                     <Button variant="contained" size="large" color="primary" className={classes.button}
@@ -98,7 +98,7 @@ export default function Controller() {
                     </Button>
                     <Button variant="contained" size="large" color="primary" className={classes.button}
                         onTouchStart={() => handleTurnRight()}
-                        onTouchEnd={() => handleStop()}>
+                        onTouchEnd={() => handleForward()}>
                         <ArrowForwardIcon />
                     </Button>
                 </Grid>
